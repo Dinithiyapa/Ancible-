@@ -4,3 +4,4 @@
   become: yes  # Ensures the tasks are run with elevated privileges
   roles:
     - docker
+    - nginx
