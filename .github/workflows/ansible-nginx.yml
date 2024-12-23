@@ -26,8 +26,8 @@ jobs:
       # Add SSH known hosts to avoid host key verification error
       - name: Add SSH known hosts
         run: |
-          ssh-keyscan -H 16.170.173.251 >> ~/.ssh/known_hosts
-          ssh-keyscan -H 51.20.131.60 >> ~/.ssh/known_hosts
+          ssh-keyscan -H 13.61.147.207 >> ~/.ssh/known_hosts
+          # ssh-keyscan -H 51.20.131.60 >> ~/.ssh/known_hosts
 
       # Install Ansible
       - name: Install Ansible
